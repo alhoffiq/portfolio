@@ -1,1 +1,15 @@
-/* hello world */
+body {
+    background-image: url("https://image.freepik.com/free-vector/abstract-futuristic-background_23-2148399335.jpg");
+    background-size: cover;
+}
+
+.container {
+    background-color: white;
+    border: 20px;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#header {
+    color: teal;
+}
