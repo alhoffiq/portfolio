@@ -12,4 +12,9 @@ body {
 
 #header {
     color: teal;
+    margin-bottom: 20px;
+}
+
+.img-fluid {
+    padding: 10px;
 }
