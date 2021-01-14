@@ -1,8 +1,8 @@
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
-import Portfolio from "./components/pages/Portfolio";
+import Portfolios from "./components/pages/Portfolios";
 import Contact from "./components/pages/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/style.css";
@@ -12,9 +12,12 @@ function App() {
     <Router>
       <div>
         <NavTabs />
+        <Route exact path="/portfolio">
+          <Redirect to="/" />
+        </Route>
         <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/portfolios" component={Portfolios} />
+        <Route exact path="/contact" component={Contact} />
       </div>
     </Router>
   );
