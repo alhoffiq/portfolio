@@ -2,19 +2,19 @@ import Me from "../../assets/images/Selfie.jpg";
 
 function Home() {
     return (
-        <section class="container">
-            <div class="row">
-                <div class="col-md-6">
+        <section className="container">
+            <div className="row">
+                <div className="col-md-6">
                     <h2 id="header">About Me!</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img class="img-fluid" src={Me} alt="Me!"></img>
+            <div className="row">
+                <div className="col-md-4">
+                    <img className="img-fluid" src={Me} alt="Me!"></img>
                 </div>
-                <div class="col-md-6">
-                    <h4 class="text-center" id="title">Full-Stack Web Developer</h4>
-                    <p class="text-center">
+                <div className="col-md-6">
+                    <h4 className="text-center" id="title">Full-Stack Web Developer</h4>
+                    <p className="text-center">
                         Hello! My name is Andrew Hoff. I am a 22 year old husband and father of 1 son. I was born in Texas
                         and after moving around a couple times I ended up here in Arizona. I currently work at Walgreens as
                         a pharmacy technician however I am eagar to leave this field in pursuit of my career in software

@@ -7,31 +7,31 @@ function NavTabs() {
     const location = useLocation();
 
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <h3 class="navbar-brand">Andrew Hoff</h3>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <h3 className="navbar-brand">Andrew Hoff</h3>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <div className="collapse navbar-collapse" id="navbarText">
+                <ul className="navbar-nav mr-auto">
+                    <li className="nav-item active">
+                        <Link to="/" classNameName={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                             Home
         </Link>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         <Link
                             to="/portfolio"
-                            className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                            classNameName={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
                         >
                             Portfolio
         </Link>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         <Link
                             to="/contact"
-                            className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                            classNameName={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
                         >
                             Contact
         </Link>
