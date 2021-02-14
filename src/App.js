@@ -1,9 +1,9 @@
 
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
-import Home from "./components/pages/Home";
-import Portfolios from "./components/pages/Portfolios";
-import Contact from "./components/pages/Contact";
+import Home from "./pages/Home";
+import Portfolios from "./pages/Portfolios";
+import Contact from "./pages/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/style.css";
 

@@ -26,3 +26,12 @@ body {
     text-decoration: underline;
     margin: 20px;
 }
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card {
+    margin: 20px;
+}
