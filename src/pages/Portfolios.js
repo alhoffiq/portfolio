@@ -3,10 +3,10 @@ import Projects from '../components/Projects'
 
 function Portfolio() {
     return (
-        <section className="container">
+        <section className="container portfolio rounded">
             <div className="row">
-                <div className="col-md-6">
-                    <h2 id="header">Portfolio</h2>
+                <div className="col">
+                    <h2 className="header text-center">Portfolio</h2>
                 </div>
             </div>
             <ol>

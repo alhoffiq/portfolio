@@ -6,7 +6,7 @@ const Projects = ({ project }) => {
                     <div className="col-md">
                         <h2 className="text-center project-title">{project.name}</h2>
                         <img className="img-fluid" src={project.img} alt={project.name}></img>
-                        <p className="text-center">{project.description}</p>
+                        <p className="text-center big">{project.description}</p>
                         <div className="card-footer">
                             <div className="row">
                                 <div className="col">
