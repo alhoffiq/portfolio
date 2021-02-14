@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, Route, } from "react-router-dom";
+import { HashRouter as Router, Route, Redirect } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./pages/Home";
 import Portfolios from "./pages/Portfolios";
@@ -12,7 +12,10 @@ function App() {
     <Router>
       <div>
         <NavTabs />
-        <Route path="/" component={Home} />
+        <Route exact path="/portfolio">
+          <Redirect to="/" />
+        </Route>
+        <Route exact path="/" component={Home} />
         <Route exact path="/portfolios" component={Portfolios} />
         <Route exact path="/contact" component={Contact} />
       </div>
