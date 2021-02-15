@@ -30,7 +30,7 @@ function Home() {
                 </div>
                 <div className="row">
                     <div className="col text-center">
-                        <a className="btn btn-dark mx-auto" href="/portfolios">View projects</a>
+                        <a className="btn btn-dark mx-auto" href="/portfolio/#/portfolios">View projects</a>
                     </div>
                 </div>
             </section>
