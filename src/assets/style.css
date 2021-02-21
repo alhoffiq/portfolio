@@ -69,3 +69,31 @@ p {
 .seeWork {
     margin-bottom: 10px!important;
 }
+
+.img-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media only screen and (max-width: 769px) { 
+    .container {
+        width: 90%!important;
+        max-width: 90%!important;
+    }
+
+    .col-1 {
+        box-sizing:unset;
+        max-width: 16.66666666%;
+        flex: unset;
+    }
+
+    p {
+        font-size: medium!important;
+    }
+}
+
+@media only screen and (max-width: 375px) { 
+    .nav-link {
+        font-size: small;
+    }
+}

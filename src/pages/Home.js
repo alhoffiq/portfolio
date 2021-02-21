@@ -12,7 +12,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3 text-center">
                         <Image className="img-fluid" src={Me} alt="Me!" roundedCircle fluid />
                     </div>
                     <div className="col-md-8">

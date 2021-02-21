@@ -21,40 +21,40 @@ const Skills = () => {
             </div>
             <div className="row justify-content-center">
                 <div className="col-1">
-                    <img src={html} alt="html"></img>
+                    <img src={html} className="img-fluid" alt="html"></img>
                 </div>
                 <div className="col-1">
-                    <img src={css} alt="css"></img>
+                    <img src={css} className="img-fluid" alt="css"></img>
                 </div>
                 <div className="col-1">
-                    <img src={js} alt="js"></img>
+                    <img src={js} className="img-fluid" alt="js"></img>
                 </div>
                 <div className="col-1">
-                    <img src={node} alt="node"></img>
+                    <img src={node} className="img-fluid" alt="node"></img>
                 </div>
                 <div className="col-1">
-                    <img src={react} alt="react"></img>
+                    <img src={react} className="img-fluid" alt="react"></img>
                 </div>
                 <div className="col-1">
-                    <img src={jquery} alt="jquery"></img>
+                    <img src={jquery} className="img-fluid" alt="jquery"></img>
                 </div>
                 <div className="col-1">
-                    <img src={mysql} alt="mysql"></img>
+                    <img src={mysql} className="img-fluid" alt="mysql"></img>
                 </div>
                 <div className="col-1">
-                    <img src={mongo} alt="mongo"></img>
+                    <img src={mongo} className="img-fluid" alt="mongo"></img>
                 </div>
                 <div className="col-1">
-                    <img src={express} alt="express"></img>
+                    <img src={express} className="img-fluid" alt="express"></img>
                 </div>
                 <div className="col-1">
-                    <img src={npm} alt="npm"></img>
+                    <img src={npm} className="img-fluid" alt="npm"></img>
                 </div>
                 <div className="col-1">
-                    <img src={git} alt="git"></img>
+                    <img src={git} className="img-fluid" alt="git"></img>
                 </div>
                 <div className="col-1">
-                    <img src={bootstrap} alt="bootstrap"></img>
+                    <img src={bootstrap} className="img-fluid" alt="bootstrap"></img>
                 </div>
             </div>
         </div>
