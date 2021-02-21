@@ -1,6 +1,6 @@
 import Me from "../assets/images/Selfie.jpg";
 import Image from "react-bootstrap/Image";
-import Skills from "../components/Skills"
+import Skills from "../components/Skills";
 
 function Home() {
     return (
