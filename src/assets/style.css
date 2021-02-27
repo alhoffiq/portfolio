@@ -77,10 +77,10 @@ p {
 
 .badge {
     display: flex!important;
-    width: 10%;
+    width: 100%;
 }
 
-@media only screen and (max-width: 769px) { 
+@media only screen and (max-width: 768px) { 
     .container {
         width: 90%!important;
         max-width: 90%!important;
@@ -94,6 +94,14 @@ p {
 
     p {
         font-size: medium!important;
+    }
+
+    .col-md-8, .col-md-1 {
+        padding: 8px;
+    }
+
+    .badge {
+        width: 100%;
     }
 }
 
