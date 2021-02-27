@@ -1,0 +1,26 @@
+{
+    "type": "Assertion",
+    "id": "https://api.badgr.io/public/assertions/BAJiBToDSJar8guPlwk6Ug",
+    "@context": "https://w3id.org/openbadges/v2",
+    "recipient": {
+      "type": "email",
+      "salt": "bc1e06b5497d4ef68ca89ea26605520d",
+      "hashed": true,
+      "identity": "sha256$9d275497138cdf1439e8f27b94753a2db632dd0e58bdd5067d4e8a3fd3c5f92a"
+    },
+    "badge": "https://api.badgr.io/public/badges/bajCiHT8QbaUiNpa6tLhRQ",
+    "issuedOn": "2021-02-26T22:28:29.527Z",
+    "image": {
+      "id": "https://api.badgr.io/public/assertions/BAJiBToDSJar8guPlwk6Ug/image"
+    },
+    "verification": {
+      "type": "HostedBadge"
+    },
+    "extensions:recipientProfile": {
+      "type": [
+        "Extension",
+        "extensions:RecipientProfile"
+      ],
+      "name": "Andrew Hoff"
+    }
+  }
