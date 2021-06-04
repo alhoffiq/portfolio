@@ -17,7 +17,7 @@ function Home() {
                         <Image className="img-fluid" src={Me} alt="Me!" roundedCircle fluid />
                     </div>
                     <div className="col-md-8">
-                        <p className="big">Hello! I'm Andrew Hoff and I'm currently a pharmacy technician for Walgreens but I am eager to start my web develoment career. I've gained my current skills from graduating University of Arizona's Web Development Bootcamp and I'm always learning more on my own.</p>
+                        <p className="big">Hello! I'm Andrew Hoff and I'm a former a pharmacy technician for Walgreens but I am eager to start my web develoment career. I've gained my current skills from graduating University of Arizona's Web Development Bootcamp and I'm always learning more on my own.</p>
                         <br></br>
                         <p className="big">I grew up in front of a computer screen and I always knew I'd have a career making them work. I'm always wondering how things work and I enjoy breaking things down into their parts to figure out every one of their roles and how the accomplish them. I'm constantly looking at my computer wondering just how it's doing what it's doing and even with my knowledge of them I'm convinced it's just magic.</p>
                         <br></br>
