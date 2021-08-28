@@ -2,7 +2,8 @@ import MusikinSiteImg from "./images/MusikinSite pic.jpg";
 import WeatherDashboardImg from "./images/Weather Dashboard pic.jpg";
 import SchedulerImg from "./images/Scheduler Pic.jpg";
 import OdysseyImg from "./images/Odyssey.png";
-import LolStackImg from "./images/LolStackImg.png"
+import LolStackImg from "./images/LolStackImg.png";
+import wwwmwwwImg from "./images/wwwmwww pic.png"
 
 const projects = [
     {
@@ -18,6 +19,13 @@ const projects = [
         img: OdysseyImg,
         link: "https://team-zeus.herokuapp.com/",
         github: "https://github.com/joeybrown-ctrl/Odyssey",
+    },
+    {
+        name: "wwwmwww",
+        description: "- A simple front end site for my dad where he can showcase puzzles he designs and makes as a hobby.",
+        img: wwwmwwwImg,
+        link: "http://wwwmwww.com",
+        github: "https://github.com/alhoffiq/wwwmwww",
     },
     {
         name: "MusikinSite",
