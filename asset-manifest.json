@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b6e71736.chunk.css",
-    "main.js": "/portfolio/static/js/main.83f0eb05.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.83f0eb05.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.5b4f8923.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5b4f8923.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/portfolio/static/css/2.ae9f1eb3.chunk.css",
@@ -18,13 +18,14 @@
     "static/media/Odyssey.2cace482.png": "/portfolio/static/media/Odyssey.2cace482.png",
     "static/media/Scheduler Pic.8a9b8f14.jpg": "/portfolio/static/media/Scheduler Pic.8a9b8f14.jpg",
     "static/media/Selfie.67c53ded.jpg": "/portfolio/static/media/Selfie.67c53ded.jpg",
-    "static/media/Weather Dashboard pic.676613f9.jpg": "/portfolio/static/media/Weather Dashboard pic.676613f9.jpg"
+    "static/media/Weather Dashboard pic.676613f9.jpg": "/portfolio/static/media/Weather Dashboard pic.676613f9.jpg",
+    "static/media/wwwmwww pic.859ba6c4.png": "/portfolio/static/media/wwwmwww pic.859ba6c4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8fed2963.js",
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.5a3e0344.chunk.js",
     "static/css/main.b6e71736.chunk.css",
-    "static/js/main.83f0eb05.chunk.js"
+    "static/js/main.5b4f8923.chunk.js"
   ]
 }
